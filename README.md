@@ -4,6 +4,8 @@ In this specific implementation of the Sudoko game there are going to be three "
 - "Edit mode" <br />
 - "Solve mode" <br />
 - "Init mode" <br /> <br />
+This program uses Gurobi Optimizer's linear programming API <br />
+
 _________________________________________________________________________________________________________________________________________________________________________________
 # Valid User Commands: <br />
 The game starts in "Init mode". The following are the commands that the user can type:<br />
