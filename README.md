@@ -1,5 +1,5 @@
 # SudokoGame
-Sudoku is a number-placement puzzle where the objective is to fill a NxN grid (usually 9x9) with digits so that each column, each row, and each block contain all digits from 1 to N. For each cell in the grid, we denote by its neighbors the other cells in its row, column, and block. The main rule is that the value of each cell is different from the values of its neighbors. A Sudoku puzzle is completed successfully once all N2 cells are filled with legal values.
+Sudoku is a number-placement puzzle where the objective is to fill a NxN grid (usually 9x9) with digits so that each column, each row, and each block contain all digits from 1 to N. For each cell in the grid, we denote by its neighbors the other cells in its row, column, and block. The main rule is that the value of each cell is different from the values of its neighbors. A Sudoku puzzle is completed successfully once all N^2 cells are filled with legal values.
 There are three modes: "Edit mode" or "Solve mode" or "Init mode". The game starts in Init mode. 
 _________________________________________________________________________________________________________________________________________________________________________________
 
