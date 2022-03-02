@@ -1,9 +1,12 @@
 # SudokoGame
 Sudoku is a number-placement puzzle where the objective is to fill a NxN grid (usually 9x9) with digits so that each column, each row, and each block contain all digits from 1 to N. For each cell in the grid, we denote by its neighbors the other cells in its row, column, and block. The main rule is that the value of each cell is different from the values of its neighbors. A Sudoku puzzle is completed successfully once all N^2 cells are filled with legal values.
-There are three modes: "Edit mode" or "Solve mode" or "Init mode". The game starts in Init mode. 
+In this specific implementation of the Sudoko game there are going to be three "Game modes":<br />
+- "Edit mode" <br />
+- "Solve mode" <br />
+- "Init mode" <br /> <br />
 _________________________________________________________________________________________________________________________________________________________________________________
-
-# Valid User Commands:
+# Valid User Commands: <br />
+The game starts in "Init mode". The following are the commands that the user can type:<br />
 - solve X <br />
 Starts a puzzle in Solve mode, loaded from a file with the name "X", where X includes a full or relative path to the file.<br />
 This command is always available, in Solve, Edit, and Init modes. Any unsaved work on the current game board is lost.
