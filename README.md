@@ -71,4 +71,5 @@ This command is only available in Solve mode. <br />
 Undo all moves, reverting the board to its original loaded state. <br />
 This command is only available in Edit and Solve modes. <br />
 - exit <br />
-Terminates the program. This command is available in all three modes.
+Terminates the program. This command is available in all three modes. <br /> <br />
+_________________________________________________________________________________________________________________________________________________________________________________
