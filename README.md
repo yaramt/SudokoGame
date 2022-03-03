@@ -6,7 +6,7 @@ In this specific implementation of the Sudoko game there are going to be three "
 - "Solve mode" <br />
 - "Init mode" <br /> <br />
 
-![image](https://user-images.githubusercontent.com/98098222/156610875-1021032a-25f8-4f53-b7d5-b11f058ae5c5.png) <br />
+![image](https://user-images.githubusercontent.com/98098222/156612505-e4962cde-55bb-452a-80f9-4da9e26bae6c.png) <br />
 Fixed cells are displayed followed by a dot (.) Erroneous values are displayed followed by an asterisk (*)
 
 
