@@ -11,7 +11,7 @@ Fixed cells are displayed followed by a dot (.) Erroneous values are displayed f
 
 
 _________________________________________________________________________________________________________________________________________________________________________________
-# Valid User Commands: <br />
+# API <br />
 The game starts in "Init mode". The following are the commands that the user can type:<br />
 - solve X <br />
 Starts a puzzle in Solve mode, loaded from a file with the name "X", where X includes a full or relative path to the file.<br />
