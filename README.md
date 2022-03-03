@@ -1,10 +1,14 @@
 # SudokoGame
-Sudoku is a number-placement puzzle where the objective is to fill a NxN grid (usually 9x9) with digits so that each column, each row, and each block contain all digits from 1 to N. For each cell in the grid, we denote by its neighbors the other cells in its row, column, and block. The main rule is that the value of each cell is different from the values of its neighbors. A Sudoku puzzle is completed successfully once all N^2 cells are filled with legal values.
+Sudoku is a number-placement puzzle where the objective is to fill a NxN grid (usually 9x9) with digits so that each column, each row, and each block contain all digits from 1 to N. For each cell in the grid, we denote by its neighbors the other cells in its row, column, and block. The main rule is that the value of each cell is different from the values of its neighbors. A Sudoku puzzle is completed successfully once all N^2 cells are filled with legal values.<br />
+This program uses Gurobi Optimizer's linear programming API. <br />
 In this specific implementation of the Sudoko game there are going to be three "Game modes":<br />
 - "Edit mode" <br />
 - "Solve mode" <br />
 - "Init mode" <br /> <br />
-This program uses Gurobi Optimizer's linear programming API <br />
+
+![image](https://user-images.githubusercontent.com/98098222/156610875-1021032a-25f8-4f53-b7d5-b11f058ae5c5.png) <br />
+Fixed cells are displayed followed by a dot (.) Erroneous values are displayed followed by an asterisk (*)
+
 
 _________________________________________________________________________________________________________________________________________________________________________________
 # Valid User Commands: <br />
@@ -18,7 +22,7 @@ The parameter X is optional. If no parameter is supplied, an empty 9x9 board is 
 This command is always available, in Solve, Edit, and Init modes. Any unsaved work on the current game board is lost.
 - mark_errors X <br />
 Sets the "mark errors" setting to X, where X is either 0 or 1. <br />
-When this parameter is set to 1, erroneous values are displayed followed by an asterisk. The default value is 1. <br />
+When this parameter is set to 1, erroneous values are displayed followed by an asterisk (*). The default value is 1. <br />
 This command is only available in Solve mode.
 - print_board <br />
 Prints the board. This command is only available in Edit and Solve modes.
